@@ -1,0 +1,1 @@
+function sticky_relocate(){var a=$(window).scrollTop(),b=$("#sticky-anchor").offset().top;a>b?$("#sticky").addClass("stick"):$("#sticky").removeClass("stick")}$(window).load(function(){$(".flexslider").flexslider({animation:"slide"})}),$(function(){$(window).scroll(sticky_relocate),sticky_relocate()});

@@ -1,0 +1,407 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"left",
+				"leftContent"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/wamp/www/robertmeans/new_client/_css/draft_styles.css",
+			"settings":
+			{
+				"buffer_size": 2943,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/robertmeans/new_client/index.php",
+			"settings":
+			{
+				"buffer_size": 2760,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 5543,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "new_client.sublime-project",
+			"settings":
+			{
+				"buffer_size": 295,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"",
+				"HTML: Wrap Selection With Tag"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/robertmeans/new_client/drafts/index.php",
+		"/C/wamp/www/robertmeans/new_client/formmail.php",
+		"/C/wamp/www/robertmeans/new_client/_css/styles.css",
+		"/C/wamp/www/robertmeans/new_client/index.php",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/wamp/www/robertmeans/new_client/drafts/_css/styles.css",
+		"/C/wamp/www/robertmeans/new_client/drafts/_css/draft_styles.css",
+		"/C/wamp/www/robertmeans/new_client/drafts/_includes/header.php",
+		"/C/wamp/www/robertmeans/thank_you.php",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/wamp/www/robertmeans/mission.php",
+		"/C/wamp/www/robertmeans/video.php",
+		"/C/wamp/www/robertmeans/websites.php",
+		"/C/wamp/www/robertmeans/index.php",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 2/Packages/User/Chrome.sublime-build",
+		"/C/wamp/www/robertmeans/home.php",
+		"/C/wamp/www/robertmeans/read_me.txt",
+		"/C/wamp/www/robertmeans/about.php",
+		"/C/wamp/www/robertmeans/contact.php",
+		"/C/Users/Robert/Lynda Training/Sublime 2 - Up and Running/404.shtml",
+		"/C/Users/Robert/Lynda Training/Sublime 2 - Up and Running/500.php",
+		"/C/Users/Robert/Lynda Training/Sublime 2 - Up and Running/500.shtml",
+		"/C/Users/Robert/Lynda Training/Sublime 2 - Up and Running/error.htm",
+		"/C/Users/Robert/Lynda Training/Sublime 2 - Up and Running/index.htm",
+		"/C/Users/Robert/Lynda Training/Sublime 2 - Up and Running/spotlight.htm",
+		"/C/Users/Robert/Lynda Training/Sublime 2 - Up and Running/.htaccess",
+		"/C/Users/Robert/Lynda Training/Sublime 2 - Up and Running/400.shtml",
+		"/C/Users/Robert/Lynda Training/Sublime 2 - Up and Running/401.shtml",
+		"/C/Users/Robert/Lynda Training/Sublime 2 - Up and Running/403.shtml",
+		"/C/Users/Robert/Lynda Training/Sublime 2 - Up and Running/favicon.ico",
+		"/C/wamp/www/Benn Mediation/beta/Joshua_Benn.htm",
+		"/C/wamp/www/Benn Mediation/beta/contact.htm"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".option",
+			"option",
+			"_images",
+			".box",
+			"<ul>",
+			"footer",
+			"div",
+			"FROM",
+			"something here",
+			"echo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/wamp/www/robertmeans/new_client/_css/draft_styles.css",
+					"settings":
+					{
+						"buffer_size": 2943,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "/C/wamp/www/robertmeans/new_client/index.php",
+					"settings":
+					{
+						"buffer_size": 2760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								489,
+								489
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 5543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4002,
+								4002
+							],
+							[
+								4312,
+								4312
+							],
+							[
+								4458,
+								4458
+							],
+							[
+								4574,
+								4574
+							],
+							[
+								4690,
+								4690
+							],
+							[
+								4806,
+								4806
+							],
+							[
+								4922,
+								4922
+							],
+							[
+								5038,
+								5038
+							],
+							[
+								5154,
+								5154
+							],
+							[
+								5291,
+								5291
+							],
+							[
+								5386,
+								5386
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1018.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "new_client.sublime-project",
+					"settings":
+					{
+						"buffer_size": 295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								46
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"robert",
+				"/C/wamp/www/robertmeans/new_client/drafts/index.php"
+			],
+			[
+				"rob",
+				"/C/wamp/www/robertmeans/new_client/drafts/index.php"
+			],
+			[
+				"client",
+				"new_client/drafts/new_client.sublime-project"
+			],
+			[
+				"con",
+				"contact.htm"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Robert/Lynda Training/Sublime 2 - Up and Running/playing.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true
+}
