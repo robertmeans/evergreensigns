@@ -1,0 +1,16 @@
+*.sass-cache*
+_docs
+node_modules
+*.rb
+_images/Thumbs.db
+*.db
+_notes
+.gitattributes
+.gitignore
+_backup/
+_Original Website/
+_psd
+pictures/
+assets/
+Pinkesh files/
+video tutorials/
