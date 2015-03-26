@@ -1,6 +1,7 @@
 *.sass-cache*
 _docs
 node_modules
+npm-debug.log
 *.rb
 _images/Thumbs.db
 *.db
