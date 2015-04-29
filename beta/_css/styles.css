@@ -1322,7 +1322,7 @@ p.contact-title {
   width: 100%;
   max-width: 1110px;
   margin: 0px auto 50px auto;
-  padding-bottom: 8px;
+  padding-bottom: 20px;
   background: #3a3800;
   color: #ada770;
   -webkit-box-sizing: border-box;
@@ -1391,35 +1391,53 @@ p.contact-title {
 }
 
 /* line 238, ../components/sass/_base.scss */
+.copyright {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  color: #ada770;
+  font-size: .7em;
+}
+/* line 244, ../components/sass/_base.scss */
+.copyright a {
+  color: #ada770;
+  text-decoration: none;
+}
+/* line 247, ../components/sass/_base.scss */
+.copyright a:hover {
+  text-decoration: underline;
+}
+
+/* line 252, ../components/sass/_base.scss */
 h2 {
   color: #362C61;
 }
 
-/* line 241, ../components/sass/_base.scss */
+/* line 255, ../components/sass/_base.scss */
 h3 {
   margin: 0;
   font-weight: bold;
   color: #362C61;
 }
 
-/* line 246, ../components/sass/_base.scss */
+/* line 260, ../components/sass/_base.scss */
 nav h3 {
   margin: 0;
   font-weight: normal;
 }
 
-/* line 251, ../components/sass/_base.scss */
+/* line 265, ../components/sass/_base.scss */
 a {
   text-decoration: none;
 }
 
-/* line 254, ../components/sass/_base.scss */
+/* line 268, ../components/sass/_base.scss */
 li.contact_pg {
   list-style: none;
   float: none;
 }
 
-/* line 258, ../components/sass/_base.scss */
+/* line 272, ../components/sass/_base.scss */
 ul.contact-form {
   position: relative;
   margin: 15px 0px 0px 0px;
@@ -1428,12 +1446,12 @@ ul.contact-form {
   font-size: .8em;
 }
 
-/* line 265, ../components/sass/_base.scss */
+/* line 279, ../components/sass/_base.scss */
 form {
   margin-left: 0px;
 }
 
-/* line 268, ../components/sass/_base.scss */
+/* line 282, ../components/sass/_base.scss */
 input#name, input#email, input#tel {
   width: 96%;
   height: 22px;
@@ -1444,12 +1462,12 @@ input#name, input#email, input#tel {
   color: #202020;
 }
 
-/* line 277, ../components/sass/_base.scss */
+/* line 291, ../components/sass/_base.scss */
 textarea:focus, input:focus {
   border: 1px solid #09C;
 }
 
-/* line 280, ../components/sass/_base.scss */
+/* line 294, ../components/sass/_base.scss */
 textarea#comments {
   width: 94%;
   height: 100px;
@@ -1457,12 +1475,12 @@ textarea#comments {
   color: #202020;
 }
 
-/* line 286, ../components/sass/_base.scss */
+/* line 300, ../components/sass/_base.scss */
 textarea.comments {
   display: block;
 }
 
-/* line 289, ../components/sass/_base.scss */
+/* line 303, ../components/sass/_base.scss */
 input#send {
   float: left;
   width: 96%;
@@ -1477,13 +1495,13 @@ input#send {
   margin-bottom: 15px;
 }
 
-/* line 302, ../components/sass/_base.scss */
+/* line 316, ../components/sass/_base.scss */
 input#send:hover {
   background: #0f5588;
   color: #fff;
 }
 
-/* line 306, ../components/sass/_base.scss */
+/* line 320, ../components/sass/_base.scss */
 .services-container {
   position: relative;
   width: 87%;
@@ -1493,7 +1511,7 @@ input#send:hover {
   border-radius: 3px;
 }
 
-/* line 314, ../components/sass/_base.scss */
+/* line 328, ../components/sass/_base.scss */
 .services-ul {
   list-style: none;
   color: #0153a7;
@@ -1504,19 +1522,19 @@ input#send:hover {
   text-align: center;
 }
 
-/* line 323, ../components/sass/_base.scss */
+/* line 337, ../components/sass/_base.scss */
 .services-ul li {
   margin-top: 2em;
   padding-bottom: .5em;
 }
 
-/* line 327, ../components/sass/_base.scss */
+/* line 341, ../components/sass/_base.scss */
 .services-ul li:last-child {
   margin-top: 2em;
   padding-bottom: 2em;
 }
 
-/* line 331, ../components/sass/_base.scss */
+/* line 345, ../components/sass/_base.scss */
 .services-ul li h3 {
   display: block;
   line-height: 1em;
@@ -1528,23 +1546,23 @@ input#send:hover {
   border-bottom: 3px solid #be420e;
 }
 
-/* line 341, ../components/sass/_base.scss */
+/* line 355, ../components/sass/_base.scss */
 .middot {
   padding: 0px 2px 0px 2px;
 }
 
 /*---------------------------base navigation styles */
-/* line 345, ../components/sass/_base.scss */
+/* line 359, ../components/sass/_base.scss */
 #mainNav h2, #mainNav #menuToggle {
   display: none;
 }
 
-/* line 348, ../components/sass/_base.scss */
+/* line 362, ../components/sass/_base.scss */
 nav ul {
   list-style: none;
 }
 
-/* line 351, ../components/sass/_base.scss */
+/* line 365, ../components/sass/_base.scss */
 #mainNav {
   margin-left: 280px;
   margin-bottom: .5em;
@@ -1553,12 +1571,12 @@ nav ul {
   box-sizing: border-box;
 }
 
-/* line 358, ../components/sass/_base.scss */
+/* line 372, ../components/sass/_base.scss */
 #mainNav li {
   float: left;
 }
 
-/* line 361, ../components/sass/_base.scss */
+/* line 375, ../components/sass/_base.scss */
 #mainNav a, #mainNav h3 {
   display: block;
   color: #3a3500;
@@ -1571,12 +1589,12 @@ nav ul {
   -ms-transition: background .75s ease;
 }
 
-/* line 373, ../components/sass/_base.scss */
+/* line 387, ../components/sass/_base.scss */
 #mainNav a:hover {
   color: #3a3500;
 }
 
-/* line 376, ../components/sass/_base.scss */
+/* line 390, ../components/sass/_base.scss */
 #mainNav a.current {
   color: #3a3500;
   cursor: default;
@@ -1740,39 +1758,67 @@ nav ul {
   /* line 10, ../components/sass/_small.scss */
   .footer-content-left {
     position: relative;
-    float: none;
-    width: 100%;
-    margin: 0 auto;
+    float: left;
+    clear: both;
+    width: 300px;
+    left: 50%;
+    display: inline-block;
+    margin: 0 auto 20px -150px;
     padding: 0px 0px 0px 4px;
   }
 
-  /* line 19, ../components/sass/_small.scss */
+  /* line 22, ../components/sass/_small.scss */
   .footer-content-right {
-    float: none;
+    float: left;
+    clear: both;
     width: 100%;
     margin-right: 0;
+  }
+
+  /* line 29, ../components/sass/_small.scss */
+  .copyright {
+    position: relative;
+    display: inline-block;
+    float: right;
+    clear: both;
+    text-align: center;
+    padding-top: 30px;
+    right: 20px;
+    bottom: 20px;
+    margin: 20px auto 0px auto;
+    color: #ada770;
+    font-size: .7em;
+  }
+  /* line 41, ../components/sass/_small.scss */
+  .copyright a {
+    color: #ada770;
+    text-decoration: none;
+  }
+  /* line 44, ../components/sass/_small.scss */
+  .copyright a:hover {
+    text-decoration: underline;
   }
 }
 @media only screen and (max-width: 800px) {
   /*disable text sizing on orientation change*/
-  /* line 28, ../components/sass/_small.scss */
+  /* line 52, ../components/sass/_small.scss */
   html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
     -webkit-text-size-adjust: none;
   }
 
-  /* line 31, ../components/sass/_small.scss */
+  /* line 55, ../components/sass/_small.scss */
   body {
     background: #ada770;
   }
 
-  /* line 34, ../components/sass/_small.scss */
+  /* line 58, ../components/sass/_small.scss */
   #wrapper {
     width: 100%;
     border: none;
     background-image: none;
   }
 
-  /* line 39, ../components/sass/_small.scss */
+  /* line 63, ../components/sass/_small.scss */
   .content {
     margin: 0 auto;
     background: #ada770;
@@ -1780,18 +1826,18 @@ nav ul {
     border: none;
   }
 
-  /* line 45, ../components/sass/_small.scss */
+  /* line 69, ../components/sass/_small.scss */
   .sidebar {
     display: none;
   }
 
-  /* line 48, ../components/sass/_small.scss */
+  /* line 72, ../components/sass/_small.scss */
   .small-logo-container {
     max-height: 310px;
     overflow: hidden;
   }
 
-  /* line 52, ../components/sass/_small.scss */
+  /* line 76, ../components/sass/_small.scss */
   .small-logo-bkg {
     width: 100%;
     max-width: 800px;
@@ -1799,7 +1845,7 @@ nav ul {
     z-index: 1000;
   }
 
-  /* line 59, ../components/sass/_small.scss */
+  /* line 83, ../components/sass/_small.scss */
   .small-logo {
     width: 100%;
     max-width: 280px;
@@ -1811,7 +1857,7 @@ nav ul {
     z-index: 1001;
   }
 
-  /* line 69, ../components/sass/_small.scss */
+  /* line 93, ../components/sass/_small.scss */
   .thank-you-container {
     position: relative;
     width: 87%;
@@ -1820,7 +1866,7 @@ nav ul {
     padding: 5%;
   }
 
-  /* line 76, ../components/sass/_small.scss */
+  /* line 100, ../components/sass/_small.scss */
   .contact-us-container {
     position: relative;
     width: 90%;
@@ -1831,41 +1877,41 @@ nav ul {
     border-radius: 8px;
   }
 
-  /* line 85, ../components/sass/_small.scss */
+  /* line 109, ../components/sass/_small.scss */
   .footer {
     margin-top: 10px;
   }
 
-  /* line 88, ../components/sass/_small.scss */
+  /* line 112, ../components/sass/_small.scss */
   input#name, input#email, input#tel {
     width: 60%;
   }
 
-  /* line 91, ../components/sass/_small.scss */
+  /* line 115, ../components/sass/_small.scss */
   input#send {
     width: 95%;
   }
 
-  /* line 94, ../components/sass/_small.scss */
+  /* line 118, ../components/sass/_small.scss */
   .contact-title-mobile {
     position: relative;
     margin: 0;
   }
 
   /* -------------------- mobile navigation styles -------------------- */
-  /* line 100, ../components/sass/_small.scss */
+  /* line 124, ../components/sass/_small.scss */
   #sticky {
     width: 100%;
   }
 
-  /* line 103, ../components/sass/_small.scss */
+  /* line 127, ../components/sass/_small.scss */
   #sticky.stick {
     position: fixed;
     top: 0px;
     z-index: 10000;
   }
 
-  /* line 112, ../components/sass/_small.scss */
+  /* line 136, ../components/sass/_small.scss */
   #mainNav {
     /*width: auto; ---- this causes the toggle to disappear - ?*/
     width: 100%;
@@ -1874,26 +1920,26 @@ nav ul {
     overflow: hidden;
   }
 
-  /* line 120, ../components/sass/_small.scss */
+  /* line 144, ../components/sass/_small.scss */
   #mainNav li {
     margin: 0;
     float: none;
     position: relative;
   }
 
-  /* line 125, ../components/sass/_small.scss */
+  /* line 149, ../components/sass/_small.scss */
   .topMenu {
     max-height: 0;
     visibility: hidden;
   }
 
-  /* line 129, ../components/sass/_small.scss */
+  /* line 153, ../components/sass/_small.scss */
   .topMenu.expand {
     max-height: 900em;
     visibility: visible;
   }
 
-  /* line 133, ../components/sass/_small.scss */
+  /* line 157, ../components/sass/_small.scss */
   #mainNav a, #mainNav h3 {
     font-size: 1.2em;
     text-align: left;
@@ -1908,30 +1954,30 @@ nav ul {
     border-radius: 0px;
   }
 
-  /* line 146, ../components/sass/_small.scss */
+  /* line 170, ../components/sass/_small.scss */
   #mainNav a:hover, #mainNav h3:hover {
     background: #3a3500;
     color: white;
   }
 
-  /* line 150, ../components/sass/_small.scss */
+  /* line 174, ../components/sass/_small.scss */
   #mainNav a:hover {
     color: white;
   }
 
-  /* line 153, ../components/sass/_small.scss */
+  /* line 177, ../components/sass/_small.scss */
   #mainNav a.current {
     color: #ede4d6;
   }
 
-  /* line 156, ../components/sass/_small.scss */
+  /* line 180, ../components/sass/_small.scss */
   #mainNav span.indicator {
     position: absolute;
     right: 1em;
   }
 
   /* -------------------- dropdown navigation styles -------------------- */
-  /* line 162, ../components/sass/_small.scss */
+  /* line 186, ../components/sass/_small.scss */
   #mainNav ul.submenu {
     float: none;
     width: auto;
@@ -1942,12 +1988,12 @@ nav ul {
     overflow: hidden;
   }
 
-  /* line 171, ../components/sass/_small.scss */
+  /* line 195, ../components/sass/_small.scss */
   #mainNav ul.submenu.expand {
     max-height: 30em;
   }
 
-  /* line 174, ../components/sass/_small.scss */
+  /* line 198, ../components/sass/_small.scss */
   #mainNav ul.submenu li a {
     padding: .2em 1em;
     white-space: nowrap;
@@ -1958,12 +2004,12 @@ nav ul {
     background: #6a6636;
   }
 
-  /* line 183, ../components/sass/_small.scss */
+  /* line 207, ../components/sass/_small.scss */
   #mainNav ul.submenu li a:hover {
     background: #8d884c;
   }
 
-  /* line 186, ../components/sass/_small.scss */
+  /* line 210, ../components/sass/_small.scss */
   #mainNav .menuToggle {
     display: block;
     background: #4c4341;
@@ -1974,35 +2020,35 @@ nav ul {
     border-radius: 0px;
   }
 
-  /* line 195, ../components/sass/_small.scss */
+  /* line 219, ../components/sass/_small.scss */
   .menuToggle a {
     text-align: center;
     padding: 0;
   }
 }
 @media only screen and (max-width: 460px) {
-  /* line 201, ../components/sass/_small.scss */
+  /* line 225, ../components/sass/_small.scss */
   .flex-caption {
     bottom: 3.8em;
   }
 
-  /* line 204, ../components/sass/_small.scss */
+  /* line 228, ../components/sass/_small.scss */
   p.flex-caption {
     font-size: .8em;
   }
 
-  /* line 207, ../components/sass/_small.scss */
+  /* line 231, ../components/sass/_small.scss */
   .text-container {
     margin: 34% 5% 5% 5%;
   }
 }
 @media only screen and (max-width: 360px) {
-  /* line 212, ../components/sass/_small.scss */
+  /* line 236, ../components/sass/_small.scss */
   .text-container {
     margin: 38% 5% 5% 5%;
   }
 
-  /* line 215, ../components/sass/_small.scss */
+  /* line 239, ../components/sass/_small.scss */
   p.flex-caption {
     font-size: .6em;
   }

@@ -12,5 +12,8 @@
 		<img src="_images/website-icon.jpg" border="0" width="30px"><p>evergreensigns.com</p>
 		<img src="_images/facebook-icon.jpg" border="0" width="30px"><p><a href="http://www.facebook.com/evergreensigns">facebook.com/evergreensigns</a></p>
 	</div>
+	<div class="copyright">
+		&copy;2015 Evergreen Signs | <a href="http://www.evergreenwebdesign.com" target="_blank">Evergreen Web Design</a>
+	</div>
 
 </div>
