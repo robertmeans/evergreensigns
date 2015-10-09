@@ -81,8 +81,7 @@ $from_name = "";
 if(isset($_REQUEST['name']) && !empty($_REQUEST['name'])){$from_name = stripslashes($_REQUEST['name']);}
 
 $headers = "From: {$from_name} <{$_REQUEST['email']}>"."\r\n";
-/* gotta make sure the creeps are not e-mailing you - the Internet can be a big, dangerous place! */
-$headers .= "BCC: robert@robertmeans.com\r\n";
+// $headers .= "BCC: none@none.com\r\n";
 
 }
 
