@@ -75,7 +75,7 @@
   <li><a href="_images/3d_20_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/3d_20_sm.jpg" width="100%"></a></li>
   <li><a href="_images/3d_21_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/3d_21_sm.jpg" width="100%"></a></li>
   <li><a href="_images/3d_22_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/3d_22_sm.jpg" width="100%"></a></li>
-  <li><a href="_images/3d_23_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/3d_23_sm.jpg" width="100%"></a></li>
+<!--   <li><a href="_images/3d_23_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/3d_23_sm.jpg" width="100%"></a></li> -->
  
 </ul>
 </div>

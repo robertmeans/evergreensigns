@@ -57,7 +57,7 @@
   <li><a href="_images/sand-carved-stone_04_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/sand-carved-stone_04_sm.jpg" width="100%"></a></li>
   <li><a href="_images/sand-carved-stone_05_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/sand-carved-stone_05_sm.jpg" width="100%"></a></li>
   <li><a href="_images/sand-carved-stone_06_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/sand-carved-stone_06_sm.jpg" width="100%"></a></li>
-  <li><a href="_images/sand-carved-stone_07_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/sand-carved-stone_07_sm.jpg" width="100%"></a></li>
+  <!-- <li><a href="_images/sand-carved-stone_07_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/sand-carved-stone_07_sm.jpg" width="100%"></a></li> -->
  
 </ul>
 </div>

@@ -66,7 +66,7 @@
   <li><a href="_images/vehicle_12_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/vehicle_12_sm.jpg" width="100%"></a></li>
   <li><a href="_images/vehicle_13_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/vehicle_13_sm.jpg" width="100%"></a></li>
   <li><a href="_images/vehicle_14_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/vehicle_14_sm.jpg" width="100%"></a></li>
-  <li><a href="_images/vehicle_15_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/vehicle_15_sm.jpg" width="100%"></a></li>
+ <!--  <li><a href="_images/vehicle_15_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/vehicle_15_sm.jpg" width="100%"></a></li> -->
 </ul>
 </div>
 

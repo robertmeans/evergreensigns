@@ -72,7 +72,7 @@
   <li><a href="_images/logo_18_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/logo_18_sm.jpg" width="100%"></a></li>
   <li><a href="_images/logo_19_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/logo_19_sm.jpg" width="100%"></a></li>
   <li><a href="_images/logo_20_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/logo_20_sm.jpg" width="100%"></a></li>
-  <li><a href="_images/logo_21_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/logo_21_sm.jpg" width="100%"></a></li> 
+  <!-- <li><a href="_images/logo_21_lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/logo_21_sm.jpg" width="100%"></a></li>  -->
 </ul>
 </div>
 
