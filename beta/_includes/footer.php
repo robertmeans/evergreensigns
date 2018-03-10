@@ -1,4 +1,15 @@
-<div class="footer cf">
+	<?php
+		function ewd_copyright($startYear) {
+			$currentYear = date('Y');
+			if ($startYear < $currentYear) {
+				$currentYear = date('y');
+				return "&copy; $startYear&ndash;$currentYear";
+			} else {
+				return "&copy; $startYear";
+			}
+		}
+	 ?>
+	 <div class="footer cf">
 
 	<div class="footer-content-right">
 		<img src="_images/footer-bkg.png" width="100%">
@@ -13,7 +24,7 @@
 		<img src="_images/facebook-icon.jpg" border="0" width="30px"><p><a href="http://www.facebook.com/evergreensigns">facebook.com/evergreensigns</a></p>
 	</div>
 	<div class="copyright">
-		&copy;2015 Evergreen Signs | <a href="http://www.evergreenwebdesign.com" target="_blank">Evergreen Web Design</a>
+		<?= ewd_copyright(2015); ?> | <a href="http://www.evergreenwebdesign.com" target="_blank">Evergreen Web Design</a>
 	</div>
 
 </div>

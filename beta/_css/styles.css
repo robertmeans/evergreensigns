@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "IBM437";
 /*
 /* 
  * HTML5 ✰ Boilerplate
@@ -523,7 +523,8 @@ td {
 
   @page {
     margin: 0.5cm;
-  }
+}
+
   /* line 446, ../components/sass/_boilerplate.scss */
   p, h2, h3 {
     orphans: 3;
@@ -570,6 +571,7 @@ td {
   font-weight: normal;
   font-style: normal;
 }
+
 /* FlexSlider Necessary Styles
 *********************************/
 /* line 37, ../components/sass/_flexslider.scss */
