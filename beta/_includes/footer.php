@@ -24,7 +24,7 @@
 		<img src="_images/facebook-icon.jpg" border="0" width="30px"><p><a href="http://www.facebook.com/evergreensigns">facebook.com/evergreensigns</a></p>
 	</div>
 	<div class="copyright">
-		<?= ewd_copyright(2015); ?> | <a href="http://www.evergreenwebdesign.com" target="_blank">Evergreen Web Design</a>
+		<?= ewd_copyright(2014); ?> | <a href="http://www.evergreenwebdesign.com" target="_blank">Evergreen Web Design</a>
 	</div>
 
 </div>
