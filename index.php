@@ -1,75 +1,69 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- <link rel="icon" type="image/ico" href="http://www.this_new_site.com/_images/favicon.ico"> uncomment once favicon is in place -->
-<title>ABC Company, Inc.</title>
-<meta http-equiv="cache-control" content="no-cache">
-<meta http-equiv="pragma" content="no-cache">
-<meta http-equiv="expires" content="0">
-<link href="_css/under_construction_styles.css" rel="stylesheet" type="text/css" />
-
-<script language="Javascript">
-<!--
-function rUSure() {
-	if (confirm("Are you sure you want to delete all of the information you have entered?")) {
-		document.forms[0].reset();
-		document.forms[0].name.focus();
-}	else	{
-
-			}
-}
-//-->
-</script>
-</head>
+<?php include "_includes/header.php" ?>
 
 <body onload="document.forms[0].name.focus();">
-<div id="page">
 
-    <div id="header"><img src="drafts/_images/header_01.jpg" /></div>
-    
-  	<div id="leftContent">
-        <h2>Tag line attention grabber slogan jingle</h2>
-        <ul>
-        <li>Add some basic information about your company here.</li>
-        <li>Services, Grand Opening date, etc.</li>
-        <li>Use this area for whatever information you want to display while your site is being built.</li>
-        <li>You don't have to use bullet points.</li>
-        <li>They do convey information quickly and concisely though.</li>
-        </ul>
-      
-  	</div>
-    
-  	<div id="rightContent">While our Website is under construction please feel free to contact us for more information.<br /><br />
+<div id="wrapper">
 
-    <form action="formmail.php" method="post" id="contactForm" onSubmit="return validateEmail(document.forms[0].email.value);">
-        
-    <ul>
-        <li>
-          <label class="text" for="name">Name</label>
-          <input name="name" type="text" id="name" tabindex="10" />
-        </li>
-        <li>
-          <label class="text" for="email">Email</label>
-          <input name="email" type="email" id="email" tabindex="20" />
-        </li>
-        <li>
-          <label class="text" for="comments">Comments</label>
-          <textarea name="comments" id="comments" tabindex="30"></textarea>
-        </li>
-        <li>
-            <input id="send" type="submit" value="Send" tabindex="40" /><input id="clear" type="button" value="Clear" onClick="rUSure()" tabindex="50" />
-        </li>
-        
-    </ul> 
-    
-    </form>
 
-    </div>
-    
-<?php include 'footer.php'; ?>
+<div class="sidebar cf">
+	<div class="contact cf">
+		<p class="contact-title">Contact Evergreen Signs</p>
+    <?php require 'contact-form.php'; ?>
 
-</div><!-- #page -->
+	</div>
+</div>
+
+<div class="small-logo-container">
+<div class="small-logo-bkg">
+  <img src="_images/small-logo-bkg.jpg" width="100%">
+</div>  
+<div class="small-logo">
+  <img src="_images/small-logo.png" width="100%">
+</div>
+</div>
+
+<?php include "_includes/nav.php" ?>
+
+<div class="content cf">
+
+<div id="gallery">
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <a href="_images/homepage-slide-001-lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/homepage-slide-001-sm.jpg" /><!-- <p class="flex-caption">Built from repourposed wood.</p> --></a>
+    </li>
+    <li>
+      <a href="_images/homepage-slide-002-lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/homepage-slide-002-sm.jpg" /></a>
+    </li>
+    <li>
+      <a href="_images/homepage-slide-003-lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/homepage-slide-003-sm.jpg" /><!-- <p class="flex-caption">This sign ROCKS!</p> --></a>
+    </li>
+    <li>
+      <a href="_images/homepage-slide-004-lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/homepage-slide-004-sm.jpg" /></a>
+    </li>
+    <li>
+      <a href="_images/homepage-slide-005-lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/homepage-slide-005-sm.jpg" /></a>
+    </li> 
+    <li>
+      <a href="_images/homepage-slide-006-lg.jpg" data-lightbox="image-1" data-title=""><img src="_images/homepage-slide-006-sm.jpg" /></a>
+    </li>        
+  </ul>
+</div>
+</div>
+
+
+<div class="text-container">
+
+<h2>Your Vision | Our Passion</h1>
+
+<p>At Evergreen Signs, we supply a wide variety of services; tailor made to help our clients make their vision come alive.  With a family owned atmosphere, we bring passion and a professional approach to all your design and custom signage needs.</p>
+</div>
+
+
+</div><!-- #content -->
+</div><!-- #wrapper -->
+<?php local_testing(); ?>
+<?php include "_includes/footer.php" ?>
 
 </body>
 </html>

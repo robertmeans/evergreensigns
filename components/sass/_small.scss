@@ -1,0 +1,241 @@
+@media only screen and (max-width: 945px) and (min-width: 801px) {
+#mainNav a, #mainNav h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	padding: 0 .6em;
+}	
+}
+@media only screen and (max-width: 870px) {
+.footer-content-left {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 300px;
+  left: 50%;
+  display: inline-block;
+  // max-width: 326px;
+  margin: 0 auto 20px -150px;
+  padding: 0px 0px 0px 4px;
+  // height: 100px;
+}
+.footer-content-right {
+  float: left;
+  clear: both;
+  width: 100%;
+  // max-width: 722px;
+  margin-right: 0;
+}
+.copyright {
+  position: relative;
+  display: inline-block;
+  float: right;
+  clear: both;
+  text-align: center;
+  padding-top: 30px;
+  right: 20px;
+  bottom: 20px;
+  margin: 20px auto 0px auto;
+  color: #ada770;
+  font-size: .7em;
+  a {
+    color: #ada770;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+}
+@media only screen and (max-width: 800px) {
+/*disable text sizing on orientation change*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	-webkit-text-size-adjust:none;
+} 
+body {
+	background: #ada770;
+}
+#wrapper {
+  width: 100%;
+  border: none;
+  background-image: none;
+}
+.content {
+  margin: 0 auto;
+  background: #ada770;
+  background-image: none;
+  border: none;
+}
+.sidebar {
+	display: none; 
+}
+.small-logo-container {
+	max-height: 310px;
+	overflow: hidden;
+}
+.small-logo-bkg {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+
+	z-index: 1000;
+}
+.small-logo {
+	width: 100%;
+	max-width: 280px;
+	margin: 0 auto;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -140px;
+	z-index: 1001;
+}
+.thank-you-container {
+  position: relative; 
+  width: 87%;
+  margin: 2% 5% 5% 5%;
+  background: #fff;
+  padding: 5%;
+}
+.contact-us-container {
+  position: relative; 
+  width: 90%;
+  margin: 2% 5% 10% 5%;
+  color: #fff;
+  background: #595727;
+  padding: 5%;
+  border-radius: 8px;
+}
+.footer {
+	margin-top: 10px;
+}
+// input#name, input#email, input#tel    {
+//   width: 60%;
+// }
+// input#send {
+//   width: 95%;
+// }
+.contact-title-mobile {
+  position: relative;
+  margin: 0;
+
+}
+/* -------------------- mobile navigation styles -------------------- */
+#sticky {
+  width: 100%;
+}
+#sticky.stick {
+  position: fixed;
+  top: 0px;
+  z-index: 10000;
+}
+
+
+
+
+#mainNav {
+	/*width: auto; ---- this causes the toggle to disappear - ?*/
+	width: 100%;
+	margin: 0;
+	background: #ada770;
+	overflow: hidden;
+}
+
+#mainNav li {
+	margin: 0;
+	float: none;
+	position: relative;
+}
+.topMenu {
+	max-height: 0;
+	visibility: hidden;
+  // transition: max-height 0.25s ease-in;
+}
+.topMenu.expand {
+	max-height: 900em;
+	visibility: visible;
+  // transition: max-height 0.25s ease-in;
+}
+#mainNav a, #mainNav h3 {
+	font-size: 1.2em;
+	text-align: left;
+	color: #3a3500;	
+	display: block;
+	margin-bottom: 1px;
+	background: #f9f3ba;
+	padding-left: 1em;
+	line-height: 3em;
+	/*text-transform: uppercase;*/
+	cursor: pointer;
+	border-radius: 0px;
+}
+#mainNav a:hover, #mainNav h3:hover {
+	background: #3a3500;
+	color: white;
+}
+#mainNav a:hover {
+	color: white;
+}
+#mainNav a.current {
+	color: rgb(237, 228, 214);
+}
+#mainNav span.indicator {
+	position: absolute;
+	right: 1em;
+}
+
+/* -------------------- dropdown navigation styles -------------------- */
+#mainNav ul.submenu {
+	float: none;
+	width: auto;
+	height: auto;
+	max-height: 0;
+	-webkit-transition:max-height 0.5s ease;
+	transition:max-height 0.5s ease;
+	overflow: hidden;
+}
+#mainNav ul.submenu.expand {
+	max-height: 30em;
+}
+#mainNav ul.submenu li a {
+	padding: .2em 1em;
+	white-space: nowrap;
+	color: white;
+	text-align: left;
+	font-size: 1em;
+	padding-left: 3em;
+	background: rgb(106, 102, 54);
+}
+#mainNav ul.submenu li a:hover {
+	background: #8d884c;
+}
+#mainNav .menuToggle {
+	display: block;
+	background: rgb(76, 67, 65);
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: .2em;
+	position: relative;
+	border-radius: 0px;
+}
+.menuToggle a {
+	text-align: center;
+	padding: 0;
+}
+}
+@media only screen and (max-width: 460px) {
+.flex-caption {
+    bottom: 3.8em;
+ }
+p.flex-caption {
+	font-size: .8em;
+}
+.text-container {
+  margin: 40px 5% 5% 5%;
+}
+}
+@media only screen and (max-width: 360px) {
+  p.flex-caption {
+  	font-size: .6em;
+  }
+}

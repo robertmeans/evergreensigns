@@ -1,0 +1,112 @@
+@media only screen and (min-width: 801px) {
+body {
+  background: #666202;
+  background-image: url(../_images/index-bkg.jpg);
+  background-repeat: repeat-x;
+}
+
+.small-logo-container {
+	display: none;
+}
+.contact-us-container {
+	display: none;
+}
+
+	
+/* -------------------- large nav styles -------------------- */
+.mobile-only {
+	display: none;
+}
+#mainNav {
+	padding-top: 14px;
+	margin-left: 280px;
+	margin-bottom: 0;
+	background: #f9f3ba;
+	height: 74px;
+	background-image: url(../_images/nav.jpg);
+  	background-repeat: no-repeat;
+}
+#largeMenu {
+	// display: block;
+	line-height: 2em;
+	height: 2em;
+	background: #f9f3ba;
+}
+#mainNav li:first-child {
+	margin-left: 20px;
+}
+#mainNav li {
+	margin-right: 3%;
+	position: relative;
+}
+#mainNav a, #mainNav h3 {
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	padding: 0 1em;
+}
+
+#mainNav a:hover, #mainNav h3:hover {
+	background: #646030;
+	color: #fff;
+	height: 2em;
+	padding-top: .3em;
+	position: relative;
+	top: -.3em;
+	border-radius: .3em;
+}
+/*#mainNav a:hover {
+	cursor: pointer;
+}*/
+#mainNav h3:hover {
+	cursor: default;
+}
+/* -------------------- dropdown menu styles -------------------- */
+#mainNav ul.submenu {
+	display: hidden;
+	float: none;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 2.3em;
+	padding-top: .3em;
+	left: -9000em;
+	max-height: 0;
+	-webkit-transition:max-height 0.5s ease;
+	transition: max-height 0.5s ease;
+	overflow: hidden;
+	z-index: 1000;
+}
+#mainNav ul.submenu a:hover {
+	height: auto;
+	top: 0;
+}
+#mainNav ul.submenu li {
+	float: none;
+	margin: 0;
+	background-color: rgba(249, 243, 186, .9);
+}
+#mainNav li.hover:hover ul, #mainNav ul.submenu.expand {
+	left: .3em;
+	max-height: 30em;
+}
+
+#mainNav ul.submenu li a {
+	border-bottom: 1px solid white;
+	padding: .2em 1em;
+	white-space: nowrap;
+	color: #3a3500;
+	text-align: left;
+	font-size: 1.1em;
+}
+#mainNav ul.submenu li:last-child a {
+	border-bottom: none;
+}
+#mainNav ul.submenu li a:hover {
+	background: rgb(100, 96, 48);
+	color: #fff;
+	border-radius: 0;
+}
+/* -------------------- end large nav styles -------------------- */
+
+}

@@ -1,0 +1,376 @@
+// @include border-box-sizing;
+body {
+  background: #666202;
+  background-image: url(../_images/index-bkg.jpg);
+  background-repeat: repeat-x;
+}
+
+#wrapper {
+	dislpay: block;
+	position: relative;
+	// width: 100%;
+	width: 1100px;
+	background: #ada770;
+	margin: 0 auto 50px auto;
+	border-bottom: 1px solid #fff;
+  	background-image: url(../_images/wrapper-bkg.jpg);
+  	background-repeat: repeat-y;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.sidebar {
+	width: 281px;
+	float: left;
+	position: relative;
+	background-image: url(../_images/aside.jpg);
+  	background-repeat: no-repeat; 	
+}
+.contact {
+	float: left;
+	position: relative;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding-top: 13px;
+	padding-left: 8px;
+	width: 228px;
+	height: 350px;
+	margin-top: 367px;
+	margin-bottom: 42px;
+	margin-left: 37px;
+	background: #3a3800;
+	color: #fff;
+	border-radius: 8px;
+}
+p.contact-title {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+.content {
+	margin-left: 280px;
+	background: #ada770;
+	background-image: url(../_images/gallery.jpg);
+  	background-repeat: no-repeat;
+	border-right: 1px solid white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#gallery {
+	// float: left;
+	position: relative;
+	width: 90%;
+	margin: 5% 5% 0 5%;
+	background: #ccc;
+	height: 50px; 
+}
+.text-container {
+	// float: left; 
+	position: relative;
+	width: 90%;
+	margin: 40% 5% 5% 5%;
+	background: #fff;
+	padding: 5%;
+}
+h3 {
+	margin: 0;
+	font-weight: bold;
+}
+nav h3 {
+	margin: 0;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+}
+li.contact_pg {
+	list-style: none;
+	float: none;
+}
+ul.contact-form {
+	position: relative;
+	margin: 15px 0px 0px 0px;
+	padding: 0;
+	font-weight: normal;
+	font-size: .8em;
+}
+form    {
+	margin-left: 0px;
+} 
+input    {
+	width: 96%;
+	height: 22px;
+	display:block;
+	background: #e1e3e2;
+	border: 1px solid #999;
+	margin: 0px 0px 15px 0px;
+}
+textarea:focus, input:focus {
+	border: 1px solid #09C;
+}
+textarea#comments {
+	width: 94%;
+	height: 60px;
+	background: #e1e3e2;
+}
+textarea.message {
+	display: block;
+}
+input#send {
+	float: left;
+	width: 96%;
+	height: 26px;
+	display: block;
+	border: 1px solid #999;
+	text-align: center;
+	font-size: .8em;
+	background: yellow;
+	color:#666;
+	margin-top: 8px;
+}
+input#send:hover {
+	background:#0f5588;
+	color:#fff;
+}
+/*---------------------------base navigation styles */
+#mainNav h2, #mainNav #menuToggle {
+	display: none;
+}
+nav ul {
+	list-style: none;
+}
+#mainNav {
+	margin-left: 280px;
+	margin-bottom: .5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#mainNav li {
+	float: left;
+}
+#mainNav a, #mainNav h3 {
+	display: block;
+	color: #3a3500;
+	border: none;
+}
+#mainNav a:hover {
+	color: #3a3500;
+}
+#mainNav a.current {
+	color: #3a3500;
+	cursor: default;
+}
+
+@media only screen and (max-width: 800px) {
+/*disable text sizing on orientation change*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	-webkit-text-size-adjust:none;
+} 
+#wrapper {
+	position: relative;
+	width: 100%;
+	max-width: 795px;
+	background: #ada770;
+	margin: 20px auto 50px auto;
+	padding: 10px 30px 50px 30px;
+	border-bottom: 1px solid #fff;
+  	background-image: url(../_images/wrapper-bkg.jpg);
+  	background-repeat: repeat-y;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* ----------- mobile navigation styles ----------- */
+#mainNav {
+	/*width: auto; ---- this causes the toggle to disappear - ?*/
+	margin: 0;
+	background: white;
+	overflow: hidden
+}
+#mainNav li {
+	margin: 0;
+	float: none;
+	position: relative;
+}
+.topMenu {
+	max-height: 0;
+	visibility: hidden;
+}
+.topMenu.expand {
+	max-height: 900em;
+	visibility: visible;
+}
+#mainNav a, #mainNav h3 {
+	font-size: 1.2em;
+	text-align: left;
+	color: #3a3500;	
+	display: block;
+	margin-bottom: 1px;
+	background: #f9f3ba;
+	padding-left: 1em;
+	line-height: 2em;
+	cursor: pointer;
+	border-radius: 3px;
+}
+#mainNav a:hover, #mainNav h3:hover {
+	background: #686b96;
+}
+#mainNav a:hover {
+	color: white;
+}
+#mainNav a.current {
+	color: rgb(237, 228, 214);
+}
+#mainNav span.indicator {
+	position: absolute;
+	right: 1em;
+}
+
+/* ----------- mobile dropdown navigation styles -----------*/
+#mainNav ul.submenu {
+	float: none;
+	width: auto;
+	height: auto;
+	max-height: 0;
+	-webkit-transition:max-height 0.5s ease;
+	transition:max-height 0.5s ease;
+	overflow: hidden;
+}
+#mainNav ul.submenu.expand {
+	max-height: 20em;
+}
+#mainNav ul.submenu li a {
+	padding: .2em 1em;
+	white-space: nowrap;
+	color: white;
+	text-align: left;
+	font-size: 1em;
+	padding-left: 3em;
+	background: rgb(100, 98, 102);
+}
+#mainNav ul.submenu li a:hover {
+	background: #a2a0a5;
+}
+#mainNav .menuToggle {
+	display: block;
+	background: rgb(76, 67, 65);
+	width: 8em;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	position: relative;
+	border-radius: 3px;
+}
+.menuToggle a {
+	text-align: center;
+	padding: 0;
+}
+}
+
+
+
+/* ----------- Large Layout: 801+. Inherits styles from: Small Layout. */
+@media only screen and (min-width: 801px) {
+/* large nav styles*/
+#mainNav {
+	padding-top: 14px;
+	margin-left: 280px;
+	margin-bottom: 0;
+	background: #f9f3ba;
+	height: 74px;
+	background-image: url(../_images/nav.jpg);
+  	background-repeat: no-repeat;
+}
+#largeMenu {
+	line-height: 2em;
+	height: 2em;
+	background: #f9f3ba;
+}
+#mainNav li {
+	margin-right: 3%;
+	position: relative;
+}
+#mainNav a, #mainNav h3 {
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	padding: 0 1em;
+}
+
+#mainNav a:hover, #mainNav h3:hover {
+	background: #686b96;
+	height: 2em;
+	padding-top: .3em;
+	position: relative;
+	top: -.3em;
+	border-radius: .3em .3em 0 0;
+}
+/*#mainNav a:hover {
+	cursor: pointer;
+}*/
+#mainNav h3:hover {
+	cursor: default;
+}
+/* ----------- large dropdown menu styles ----------- */
+#mainNav ul.submenu {
+	float: none;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 2em;
+	padding-top: .3em;
+	left: -9000em;
+	max-height: 0;
+	-webkit-transition:max-height 0.5s ease;
+	transition:max-height 0.5s ease;
+	overflow: hidden;
+	z-index: 1000;
+}
+#mainNav ul.submenu a:hover {
+	height: auto;
+	top: 0;
+}
+#mainNav ul.submenu li {
+	float: none;
+	margin: 0;
+	background: rgb(81, 89, 107);
+	background: rgba(81, 89, 107, .9);
+}
+#mainNav li.hover:hover ul, #mainNav ul.submenu.expand {
+	left: 0;
+	max-height: 20em;
+}
+/*#mainNav li:hover ul {
+	left: 0;
+	max-height: 20em;
+}*/
+#mainNav ul.submenu li a {
+	border-bottom: 1px solid white;
+	padding: .2em 1em;
+	white-space: nowrap;
+	color: white;
+	text-align: left;
+	font-size: 1.1em;
+}
+#mainNav ul.submenu li:last-child a {
+	border-bottom: none;
+}
+#mainNav ul.submenu li a:hover {
+	background: rgb(123, 121, 143);
+	border-radius: 0;
+}
+}
+
+
+
+
+
+
+
+
+

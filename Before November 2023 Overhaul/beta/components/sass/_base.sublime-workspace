@@ -1,0 +1,246 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 185.0,
+		"selected_items":
+		[
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 402.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/Colt-Green/backup/111814-online-backup/beta/index.php",
+		"/C/wamp/www/Colt-Green/backup/111814-online-backup/beta/commercial.php",
+		"/C/wamp/www/Colt-Green/beta/_scripts/nav.js",
+		"/C/wamp/www/Colt-Green/beta/_includes/nav.php",
+		"/C/wamp/www/Colt-Green/beta/about.php",
+		"/C/wamp/www/Colt-Green/beta/credentials.php",
+		"/C/wamp/www/Colt-Green/beta/index.php",
+		"/C/wamp/www/Colt-Green/beta/contact.php",
+		"/C/wamp/www/Colt-Green/beta/industrial.php",
+		"/C/wamp/www/Colt-Green/beta/projects.php",
+		"/C/wamp/www/Colt-Green/beta/residential.php",
+		"/C/wamp/www/Colt-Green/beta/services.php",
+		"/C/wamp/www/Colt-Green/beta/thank_you.php",
+		"/C/wamp/www/Colt-Green/beta/_css/styles.css",
+		"/C/wamp/www/Colt-Green/beta/commercial.php",
+		"/C/wamp/www/Colt-Green/beta/testing-page.php",
+		"/C/wamp/www/Colt-Green/beta/login.php",
+		"/C/wamp/www/Colt-Green/beta/config.rb",
+		"/C/wamp/www/Colt-Green/beta/components/js/scripts.js",
+		"/C/wamp/www/Colt-Green/beta/components/sass/_layout.scss",
+		"/C/wamp/www/Colt-Green/beta/components/sass/_base.scss",
+		"/C/wamp/www/Colt-Green/beta/_includes/footer.php",
+		"/C/wamp/www/Colt-Green/beta/about-temp.php",
+		"/C/wamp/www/Colt-Green/beta/credentials-temp.php",
+		"/C/wamp/www/Colt-Green/beta/projects-temp.php",
+		"/C/wamp/www/Colt-Green/beta/services-temp.php",
+		"/C/wamp/www/Colt-Green/beta/_scripts/scripts.js",
+		"/C/wamp/www/Colt-Green/sftp-config.json",
+		"/C/wamp/www/Colt-Green/beta/_scripts/respond.min.js",
+		"/C/wamp/www/Colt-Green/_css/draft_styles.css",
+		"/C/wamp/www/Colt-Green/drafts/navigation.php",
+		"/C/wamp/www/Colt-Green/drafts/index.php",
+		"/C/wamp/www/Colt-Green/drafts/header.php",
+		"/C/wamp/www/Robert Means/new_client/drafts/navigation.php",
+		"/C/wamp/www/Colt-Green/beta/components/sass/styles.scss",
+		"/C/wamp/www/Colt-Green/index.php",
+		"/C/wamp/www/Colt-Green/formmail.php",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 3/Settings/SideBarEnhancements.json",
+		"/C/wamp/www/.sublime/Colt-Green.sublime-project",
+		"/C/wamp/www/Colt-Green/beta/package.json",
+		"/C/wamp/www/Robert Means/new_client/_css/draft_styles.css",
+		"/C/wamp/www/wildflowerevergreen/.sublime/SideBarEnhancements.json",
+		"/C/wamp/www/wildflowerevergreen/SideBarEnhancements.json",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/readme.md",
+		"/C/wamp/www/wildflowerevergreen/drafts/index.php",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/wamp/www/robertmeans/acts/index.html",
+		"/C/wamp/www/robertmeans/new_client/index.php",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/wamp/www/robertmeans/new_client/formmail.php",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 3/Packages/Theme - Soda/README.md"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			"C:\\wamp\\www\\Colt-Green\\beta"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ul.cre",
+			"8",
+			"86",
+			"867",
+			"menuToggle",
+			"<p class=\"logo-text\">Colt-Green Construction</p><p class=\"login-txt\"><!-- <a href=\"login.php\">Login</a> &nbsp;&nbsp;|&nbsp;&nbsp; --> <a href=\"contact.php\">Contact</a></p>",
+			"h3",
+			".hover",
+			"hover",
+			"sticky",
+			"z-index",
+			"230",
+			"s30",
+			"non-index",
+			"absolute",
+			"box",
+			"wildflowerevergreen",
+			"robertmeans",
+			"evergreenmountainguides",
+			"bennmediation"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"			<p class=\"logo-text\">Colt-Green Construction</p><p class=\"login-txt large\"><!-- <a href=\"login.php\">Login</a> &nbsp;&nbsp;|&nbsp;&nbsp; --> <a href=\"contact.php\">Contact</a></p>\n			<p class=\"logo-text\">Colt-Green Construction</p><p class=\"login-txt large\"><!-- <a href=\"login.php\">Login</a> &nbsp;&nbsp;|&nbsp;&nbsp; --> <a href=\"contact.php\">Contact</a></p>\n			<p class=\"logo-text\">Colt-Green Construction</p><p class=\"login-txt large\"><!-- <a href=\"login.php\">Login</a> &nbsp;&nbsp;|&nbsp;&nbsp; --> <a href=\"contact.php\">Contact</a></p>\n			<p class=\"logo-text\">Colt-Green Construction</p><p class=\"login-txt large\"><!-- <a href=\"login.php\">Login</a> &nbsp;&nbsp;|&nbsp;&nbsp; --> <a href=\"contact.php\">Contact</a></p>\n<p class=\"logo-text\">Colt-Green Construction</p><p class=\"login-txt large\"><!-- <a href=\"login.php\">Login</a> &nbsp;&nbsp;|&nbsp;&nbsp; --> <a href=\"contact.php\">Contact</a></p>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 126.0
+	},
+	"project": "_base.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\wamp\\www\\.sublime\\Wildflower.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
