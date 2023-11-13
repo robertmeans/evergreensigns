@@ -16,3 +16,6 @@ assets/
 Pinkesh files/
 video tutorials/
 sftp-config.json
+vendor
+_errors.txt
+config
